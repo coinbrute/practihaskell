@@ -104,11 +104,5 @@ addressLetterV2 :: ([Char], [Char]) -> [Char] -> [Char]
 addressLetterV2 name location = locationFunction name
  where locationFunction = getLocationFunction location                               
 
--- mapName xs = (head (splitOn "\s" xs), last (splitOn "\s" xs))
-
--- main = do
---  print ("What is your name?")
---  name <- getLine 
---  mapName name
 
  
