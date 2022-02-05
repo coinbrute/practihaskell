@@ -28,7 +28,7 @@ squareAll        :: [Int] -> [Int]
 squareAll []     = []
 squareAll (x:xs) = x^2 : squareAll xs
 
-myMap          :: (a -> a) -> [a] -> [a]
+myMap          :: (a -> b) -> [a] -> [b]
 myMap f []     = []
 myMap f (x:xs) = (f x) : myMap f xs
 
